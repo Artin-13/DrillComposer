@@ -5,7 +5,7 @@ import json
 import subprocess
 from time import sleep
 
-f=open('data.json') #Get this by using the drillster API 
+f=open('data.json') #Get this by using the drillster API (https://www.drillster.com/info/developers/api/2.1.1/endpoints/get-repertoire)
 
 data = json.load(f)
 
